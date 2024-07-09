@@ -1,0 +1,105 @@
+.wrapper {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+._alpha_hub_center_heading_main_etypm_47 {
+  color: var(--White-100, #fff);
+  font-size: 24px;
+  line-height: 30px;
+}
+._alpha_hub_center_heading_sub_etypm_52 {
+  color: var(--White-40, rgba(255, 255, 255, 0.4));
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Outfit;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.117px;
+  gap: 8px;
+}
+
+.imgBig {
+  width: 100%;
+  height: 100%;
+  margin-top: 30px;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imgBig > img {
+  width: 64%;
+  border: 1px solid var(--White-20, rgba(255, 255, 255, 0.2));
+  border-radius: 16px;
+}
+.belowText {
+  width: 100%;
+  max-width: 1200px;
+  height: 20%;
+  position: absolute;
+  bottom: 1px;
+  left: 343px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+  z-index: 3;
+}
+.textB {
+  font-family: Outfit;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.117px;
+}
+._alpha_hub_bottom_heading_main_etypm_105 {
+  color: #fff9;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  font-size: 24px;
+  line-height: 30px;
+  mix-blend-mode: plus-lighter;
+}
+._alpha_hub_bottom_heading_sub_etypm_112 {
+  color: var(--White-40, rgba(255, 255, 255, 0.4));
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  line-height: 20px;
+  mix-blend-mode: plus-lighter;
+}
+.tabSwitcher {
+  position: sticky;
+  z-index: 100;
+  bottom: 5%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  margin-left: 43%;
+}
+.ess {
+  padding: 8px 40px;
+  border-radius: 1000px;
+  background: var(--White-15, rgba(255, 255, 255, 0.15));
+  mix-blend-mode: plus-lighter;
+  box-shadow: 0 1px 1px #ffffff26 inset;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: unset;
+  transition: transform 0.5s ease;
+  text-shadow: 0px 0.7px 1px rgba(0, 0, 0, 0.75);
+}
+.ess > a {
+  color: white;
+  margin: 10px;
+}
