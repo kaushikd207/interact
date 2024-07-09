@@ -145,3 +145,10 @@ body {
   overflow: hidden;
   transition: all 0.3s ease;
 }
+.new{
+  background-color: #6435e9;
+  color: white;
+  padding: 5px;
+  font-size: 12px;
+  border-radius: 20px;
+}

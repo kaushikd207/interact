@@ -1,6 +1,7 @@
 import "./App.css";
 import Creator from "./Creator";
 import DictionaryPage from "./DictonaryPage";
+import Footer from "./Footer";
 function App() {
   return (
     <>
@@ -15,7 +16,9 @@ function App() {
           <div className="nav">
             <div className="link">Compass</div>
             <div className="link">Explore</div>
-            <div className="link">Academy</div>
+            <div className="link">
+              Academy <span className="new">New</span>
+            </div>
             <div className="link">NFTs</div>
             <div className="link">For Projects</div>
           </div>
@@ -60,7 +63,7 @@ function App() {
       </div>
       <Creator />
       <DictionaryPage />
-    
+      <Footer />
     </>
   );
 }
